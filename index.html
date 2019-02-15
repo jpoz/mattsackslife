@@ -127,26 +127,57 @@
     }
   }
   body {
-    background-color: BlanchedAlmond;
-    animation-name: color;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    background-image: url('sack_of_shit.gif');
+  }
+  .words {
+    font-size: 128px;
+    animation: wordsss 3s ease-in 0s infinite reverse both running;
+      font-family: 'Comic Sans MS';
   }
 
-  @keyframes color {
-    0%, 100% {
-      background-color: BlanchedAlmond;
+  @keyframes wordsss {
+    0% {
+      color: darkkhaki;
+      font-family: 'Arial';
+    }
+    25% {
+      color: lightgreen;
+      font-family: 'Courier New';
     }
     50% {
-      background-color: salmon;
+      color: darkorchid;
+      font-family: 'Comic Sans MS';
     }
-    100% {
-      background-color: BlanchedAlmond;
+    75% {
+      color: lavenderblush;
+      font-family: 'Impact';
     }
   }
 </style>
 </head>
 <body>
+  <div class='overlay'>
+    <div class='words'>
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+      Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
+    </div>
+  </div>
   <div class='overlay'>
     <div class='fill' id='img001'>
       <img src='001.png' style='height: 100%; width: 100%; object-fit: contain'/>
@@ -196,5 +227,14 @@
         element.parentNode.removeChild(element);
   }
   </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3441225-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3441225-13');
+</script>
 </body>
 </html>
