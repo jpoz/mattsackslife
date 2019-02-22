@@ -153,6 +153,60 @@
       font-family: 'Impact';
     }
   }
+
+  .mouth {
+    transform: rotate(0deg);
+    transform-origin: 969px 933px;
+    animation: talking 3s infinite;
+  }
+
+  @keyframes talking {
+    0% {
+      transform: rotate(0deg);
+    }
+    2% {
+      transform: rotate(-16deg);
+    }
+    10% {
+      transform: rotate(-2deg);
+    }
+    25% {
+      transform: rotate(-20deg);
+    }
+    40% {
+      transform: rotate(-0deg);
+    }
+    45% {
+      transform: rotate(-20deg);
+    }
+    50% {
+      transform: rotate(-0deg);
+    }
+    55% {
+      transform: rotate(-20deg);
+    }
+    60% {
+      transform: rotate(-0deg);
+    }
+    65% {
+      transform: rotate(-20deg);
+    }
+    70% {
+      transform: rotate(-0deg);
+    }
+    75% {
+      transform: rotate(-20deg);
+    }
+    80% {
+      transform: rotate(-0deg);
+    }
+    90% {
+      transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 </style>
 </head>
 <body>
@@ -178,35 +232,40 @@
       Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart Fart
     </div>
   </div>
+  <!-- <div class='overlay'> -->
+  <!--   <div class='fill' id='img001'> -->
+  <!--     <img src='001.png' style='height: 100%; width: 100%; object-fit: contain'/> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- <div class='overlay'> -->
+  <!--   <div class='fill' id='img002'> -->
+  <!--     <img src='002.png' style='height: 100%; width: 100%; object-fit: contain'/> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- <div class='overlay'> -->
+  <!--   <div class='fill' id='img003'> -->
+  <!--     <img src='003.png' style='height: 100%; width: 100%; object-fit: contain'/> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- <div class='overlay'> -->
+  <!--   <div class='fill' id='img004'> -->
+  <!--     <img src='004.png' style='height: 100%; width: 100%; object-fit: contain'/> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- <div class='overlay'> -->
+  <!--   <div class='fill' id='img005'> -->
+  <!--     <img src='005.png' style='height: 100%; width: 100%; object-fit: contain'/> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- <div class='overlay'> -->
+  <!--   <div class='fill' id='img006'> -->
+  <!--     <img src='006.png' style='height: 100%; width: 100%; object-fit: contain'/> -->
+  <!--   </div> -->
+  <!-- </div> -->
+
   <div class='overlay'>
-    <div class='fill' id='img001'>
-      <img src='001.png' style='height: 100%; width: 100%; object-fit: contain'/>
-    </div>
-  </div>
-  <div class='overlay'>
-    <div class='fill' id='img002'>
-      <img src='002.png' style='height: 100%; width: 100%; object-fit: contain'/>
-    </div>
-  </div>
-  <div class='overlay'>
-    <div class='fill' id='img003'>
-      <img src='003.png' style='height: 100%; width: 100%; object-fit: contain'/>
-    </div>
-  </div>
-  <div class='overlay'>
-    <div class='fill' id='img004'>
-      <img src='004.png' style='height: 100%; width: 100%; object-fit: contain'/>
-    </div>
-  </div>
-  <div class='overlay'>
-    <div class='fill' id='img005'>
-      <img src='005.png' style='height: 100%; width: 100%; object-fit: contain'/>
-    </div>
-  </div>
-  <div class='overlay'>
-    <div class='fill' id='img006'>
-      <img src='006.png' style='height: 100%; width: 100%; object-fit: contain'/>
-    </div>
+    <img src='topface.png' style='position: absolute; top: 60px; left: 80px;'/>
+    <img class='mouth' src='bottomface.png' style='position: absolute; top: 60px; left: 80px;'/>
   </div>
 
   <audio autoplay loop id="playAudio">
